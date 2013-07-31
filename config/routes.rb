@@ -1,4 +1,8 @@
 Danscode::Application.routes.draw do
+  root 'site#home'
+  match '/projects', :to => 'site#projects', :via => 'get'
+  match '/about', :to => 'site#about', :via => 'get'
+  match '/contact', :to => 'site#contact', :via => 'get'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
