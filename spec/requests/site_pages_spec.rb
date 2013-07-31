@@ -8,6 +8,7 @@ describe "Site Pages" do
 		subject { page }
 
 		it { should have_title(full_title('')) }
+		it { should_not have_title('| Home') }
 	end
 
 	describe "Projects page" do
