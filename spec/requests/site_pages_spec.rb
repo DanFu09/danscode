@@ -13,6 +13,7 @@ describe "Site Pages" do
 		it { should have_link('About Me', :href => about_path) }
 		it { should have_link('Contact Us', :href => contact_path) }
 		it { should have_link('Hire Me', :href => hireme_path) }
+		it { should have_selector('img') }
 	end
 
 	describe "Projects page" do
