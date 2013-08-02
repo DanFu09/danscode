@@ -1,18 +1,22 @@
-<header class="navbar navbar-fixed-top">
+<header class="navbar navbar-static-top">
 	<div class="navbar-inner">
-		<div class="container">
-			<nav>
-				<ul class="nav pull-left">
-					<%= link_to 'DansCode', root_path, :id => "logo" %>
-				</ul>
-				<ul class="nav pull-right">
-					<li><%= link_to 'Home', root_path %></li>
-					<li><%= link_to 'Projects', projects_path %></li>
-					<li><%= link_to 'About Me', about_path %></li>
-					<li><%= link_to 'Contact Us', contact_path %></li>
-					<li><%= link_to 'Hire Me', hireme_path %></li>
-				</ul>
-			</nav>
+		<div class="container-fluid">
+			<div class="row-fluid">
+				<div class="span10 offset1">
+					<nav>
+						<ul class="nav pull-left">
+							<%= link_to 'DansCode', root_path, :id => "logo" %>
+						</ul>
+						<ul class="nav pull-right">
+							<li><%= link_to 'Home', root_path %></li>
+							<li><%= link_to 'Projects', projects_path %></li>
+							<li><%= link_to 'About Me', about_path %></li>
+							<li><%= link_to 'Contact Us', contact_path %></li>
+							<li><%= link_to 'Hire Me', hireme_path %></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
 		</div>
 	</div>
 </header>
