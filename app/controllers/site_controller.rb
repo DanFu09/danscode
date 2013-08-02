@@ -2,9 +2,6 @@ class SiteController < ApplicationController
   def home
   end
 
-  def projects
-  end
-
   def about
   end
 

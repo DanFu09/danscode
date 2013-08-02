@@ -4,10 +4,6 @@ html {
   overflow-y: scroll;
 }
 
-body {
-  padding-top: 60px;
-}
-
 section {
   overflow: auto;
 }
@@ -37,7 +33,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.7em;
+  font-size: 2em;
   letter-spacing: -1px;
   margin-bottom: 20px;
   text-align: center;
@@ -68,12 +64,12 @@ p {
 	padding: 25px;
 }
 
-.navbar.navbar-fixed-top {
-  .navbar-inner {
-    .container {
-      max-width: 940px;
-      min-width: 560px;
-      width: auto;
+.thumbnail {
+  .project-thumbnail {
+    height: 200px;
+    img {
+      max-height: 200px;
+      height: auto;
     }
   }
 }

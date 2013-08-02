@@ -21,16 +21,6 @@ describe "Site Pages" do
 		it { should have_selector('img') }
 	end
 
-	describe "Projects page" do
-		before { visit projects_path }
-
-		subject { page }
-
-		it { should have_title(full_title('Projects')) }
-
-		it { should have_selector('.navbar') }
-	end
-
 	describe "About page" do
 		before { visit about_path }
 
