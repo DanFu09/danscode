@@ -6,21 +6,15 @@ module ProjectsHelper
   		_meth_temperature_rats,
   		_memristor_networks,
   		_global_scholars_project,
-  		{ 
-  			:title => "This Web Site",
-  			:description => "This is project 2",
-  			:img => ""
-  		},
-  		{ 
-  			:title => "Project 4",
-  			:description => "This is project 4",
-  			:img => ""
-  		}
+  		_danscode_site
   	]
 	end
 
 	def past_projects
-		[]
+		[
+			_yasl_compiler,
+			_dyknow_features
+		]
 	end
 
 	private
@@ -56,6 +50,33 @@ module ProjectsHelper
 			description = "A cross-cultural analysis of the rise of religious fundamentalism, with particular focus on Evangelical Christianity in the West and Fundamentalist Islam in the Middle East. Project done for the Global Scholars Program at Park Tudor."
 			{
 				:title => "Rise of Religious Fundamentalism",
+				:description => description,
+				:img => ""
+			}
+		end
+
+		def _danscode_site
+			description = "This web site is written using Ruby on Rails. It is constantly evolving with new pages and updates to my projects. This site is also completley open source and can be found on GitHub."
+			{
+				:title => "This Web Site",
+				:description => description,
+				:img => ""
+			}
+		end
+
+		def _yasl_compiler
+			description = "A compiler written for YASL (Yet Another Simple Language). The compiler was written for Dave Berque's Compilers course at DePauw."
+			{
+				:title => "YASL Compiler",
+				:description => description,
+				:img => ""
+			}
+		end
+
+		def _dyknow_features
+			description = "Two features built while I was an intern at DyKnow, a small tech company in Indianapolis that specializes in classroom engagement and assessment technology."
+			{
+				:title => "DyKnow Analytics and External Document Support",
 				:description => description,
 				:img => ""
 			}
