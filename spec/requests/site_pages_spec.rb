@@ -9,10 +9,15 @@ describe "Site Pages" do
 
 		it { should have_title(full_title('')) }
 		it { should_not have_title('| Home') }
+
+		it { should have_link('Home', :href => root_path) }
 		it { should have_link('Projects', :href => projects_path) }
 		it { should have_link('About Me', :href => about_path) }
 		it { should have_link('Contact Us', :href => contact_path) }
 		it { should have_link('Hire Me', :href => hireme_path) }
+
+		it { should have_selector('.navbar') }
+
 		it { should have_selector('img') }
 	end
 
@@ -22,10 +27,8 @@ describe "Site Pages" do
 		subject { page }
 
 		it { should have_title(full_title('Projects')) }
-		it { should have_link('Projects', :href => projects_path) }
-		it { should have_link('About Me', :href => about_path) }
-		it { should have_link('Contact Us', :href => contact_path) }
-		it { should have_link('Hire Me', :href => hireme_path) }
+
+		it { should have_selector('.navbar') }
 	end
 
 	describe "About page" do
@@ -34,10 +37,8 @@ describe "Site Pages" do
 		subject { page }
 
 		it { should have_title(full_title('About Me')) }
-		it { should have_link('Projects', :href => projects_path) }
-		it { should have_link('About Me', :href => about_path) }
-		it { should have_link('Contact Us', :href => contact_path) }
-		it { should have_link('Hire Me', :href => hireme_path) }
+
+		it { should have_selector('.navbar') }
 	end
 
 	describe "Contact page" do
@@ -46,10 +47,8 @@ describe "Site Pages" do
 		subject { page }
 
 		it { should have_title(full_title('Contact Us')) }
-		it { should have_link('Projects', :href => projects_path) }
-		it { should have_link('About Me', :href => about_path) }
-		it { should have_link('Contact Us', :href => contact_path) }
-		it { should have_link('Hire Me', :href => hireme_path) }
+
+		it { should have_selector('.navbar') }
 	end
 
 	describe "Hire Me page" do
@@ -58,9 +57,7 @@ describe "Site Pages" do
 		subject { page }
 
 		it { should have_title(full_title('Hire Me')) }
-		it { should have_link('Projects', :href => projects_path) }
-		it { should have_link('About Me', :href => about_path) }
-		it { should have_link('Contact Us', :href => contact_path) }
-		it { should have_link('Hire Me', :href => hireme_path) }
+
+		it { should have_selector('.navbar') }
 	end
 end

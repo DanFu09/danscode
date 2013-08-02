@@ -67,3 +67,13 @@ p {
 .hero-unit {
 	padding: 25px;
 }
+
+.navbar.navbar-fixed-top {
+  .navbar-inner {
+    .container {
+      max-width: 940px;
+      min-width: 560px;
+      width: auto;
+    }
+  }
+}
