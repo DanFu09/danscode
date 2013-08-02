@@ -10,4 +10,7 @@ class SiteController < ApplicationController
 
   def contact
   end
+
+  def hireme
+  end
 end
