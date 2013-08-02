@@ -33,7 +33,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.7em;
+  font-size: 2em;
   letter-spacing: -1px;
   margin-bottom: 20px;
   text-align: center;
@@ -62,4 +62,14 @@ p {
 
 .hero-unit {
 	padding: 25px;
+}
+
+.thumbnail {
+  .project-thumbnail {
+    height: 200px;
+    img {
+      max-height: 200px;
+      height: auto;
+    }
+  }
 }
