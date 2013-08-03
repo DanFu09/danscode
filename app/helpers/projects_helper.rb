@@ -74,7 +74,7 @@ module ProjectsHelper
 		end
 
 		def _dyknow_features
-			description = "Two features built while I was an intern at DyKnow, a small tech company in Indianapolis that specializes in classroom engagement and assessment technology."
+			description = "Two features built while I was an intern at DyKnow, a small tech company in Indianapolis that provides innovative, scalable, and reliable classroom management and interactive learning software for educators."
 			{
 				:title => "DyKnow Analytics and External Document Support",
 				:description => description,
