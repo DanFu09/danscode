@@ -20,65 +20,72 @@ module ProjectsHelper
 	private
 
 		def _chaos_and_robustness
-			description = "Development of two new mathematical methods for analyzing genetic oscillatory networks, which are involved in everything from cancer to jet lag."
+			short_description = "Development of two new mathematical methods for analyzing genetic oscillatory networks, which are involved in everything from cancer to jet lag."
 			{
 				:title => "Dynamics of Genetic Oscillatory Networks",
-  			:description => description,
-  			:img => "dynamicsOfGenOscNetThumbnail.png"	
+  			:short_description => short_description,
+  			:img => "dynamicsOfGenOscNet/nmsd.png",
+  			:path => "dynamics_of_genetic_oscillatory_networks"
 			}
 		end
 
 		def _meth_temperature_rats
-			description = "A mathematical modeling study to gain a deeper understanding of the neural response to meth, with the eventual goal of preventing malignant hyperthermia caused by low doses of meth."
+			short_description = "A mathematical modeling study to gain a deeper understanding of the neural response to meth, with the eventual goal of preventing malignant hyperthermia caused by low doses of meth."
 			{ 
   			:title => "Modeling Effects of Meth on Temperature",
-  			:description => description,
-  			:img => "temperatureResponseToMeth.jpg"
+  			:short_description => short_description,
+  			:img => "temperatureResponseToMeth/temperatureResponseToMeth.jpg",
+  			:path => "modeling_effects_of_meth_on_temperature"
   		}
 		end
 
 		def _memristor_networks
-			description = "Research into the emergent properties of memristor networks, with the aim of developing a memristor-based neural network."
+			short_description = "Research into the emergent properties of memristor networks, with the aim of developing a memristor-based neural network."
 			{
 				:title => "Properties of Networks of Memristors",
-				:description => description,
-				:img => "memristorHysteresisLoop.jpg"
+				:short_description => short_description,
+				:img => "memristorNetwork/memristorHysteresisLoop.jpg",
+				:path => "properties_of_networks_of_memristors"
 			}
 		end
 
 		def _global_scholars_project
-			description = "A cross-cultural analysis of the rise of religious fundamentalism, with particular focus on Evangelical Christianity in the West and Fundamentalist Islam in the Middle East. Project done for the Global Scholars Program at Park Tudor."
+			short_description = "A cross-cultural analysis of the rise of religious fundamentalism, with particular focus on Evangelical Christianity in the West and Fundamentalist Islam in the Middle East. Project done for the Global Scholars Program at Park Tudor."
 			{
 				:title => "Rise of Religious Fundamentalism",
-				:description => description,
-				:img => ""
+				:short_description => short_description,
+				:img => "",
+				:path => "rise_of_religious_fundamentalism"
 			}
 		end
 
 		def _danscode_site
-			description = "This web site is written using Ruby on Rails. It is constantly evolving with new pages and updates to my projects. This site is also completley open source and can be found on GitHub."
+			short_description = "This web site is written using Ruby on Rails. It is constantly evolving with new pages and updates to my projects. This site is also completley open source and can be found on GitHub."
 			{
-				:title => "This Web Site",
-				:description => description,
-				:img => ""
+				:title => "DansCode",
+				:short_description => short_description,
+				:img => "",
+				:path => "about_this_site"
 			}
 		end
 
 		def _yasl_compiler
-			description = "A compiler written for YASL (Yet Another Simple Language). The compiler was written for Dave Berque's Compilers course at DePauw."
+			short_description = "A compiler written for YASL (Yet Another Simple Language). The compiler was written for Dave Berque's Compilers course at DePauw."
 			{
 				:title => "YASL Compiler",
-				:description => description,
-				:img => ""
+				:short_description => short_description,
+				:img => "",
+				:path => "yasl_compiler"
 			}
 		end
 
 		def _dyknow_features
-			description = "Two features built while I was an intern at DyKnow, a small tech company in Indianapolis that provides innovative, scalable, and reliable classroom management and interactive learning software for educators."
+			short_description = "Two features built while I was an intern at DyKnow, a small tech company in Indianapolis that provides innovative, scalable, and reliable classroom management and interactive learning software for educators."
 			{
 				:title => "DyKnow Analytics and External Document Support",
-				:description => description,
-				:img => ""
+				:short_description => short_description,
+				:img => "",
+				:path => "dyknow_projects"
 			}
 		end
 end

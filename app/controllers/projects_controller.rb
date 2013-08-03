@@ -5,4 +5,7 @@ class ProjectsController < ApplicationController
   	@current_projects = current_projects
   	@past_projects = past_projects
   end
+
+  def show
+  end
 end
