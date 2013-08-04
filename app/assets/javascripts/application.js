@@ -13,6 +13,9 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require_tree .
 //= require bootstrap
 //= require twitter-bootstrap-hover-dropdown.min
+//= require danscode
+//= require Actions/danscode.actions
+//= require Actions/danscode.actions.header
+//= require_tree .
