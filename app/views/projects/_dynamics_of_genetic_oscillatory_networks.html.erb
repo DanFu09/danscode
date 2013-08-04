@@ -1,0 +1,54 @@
+<% @basic_information = _chaos_and_robustness
+provide(:title, @basic_information[:title]) %>
+<div class="page-header">
+	<h1><%= @basic_information[:title] %></h1>
+</div>
+<div class="row-fluid hero-unit">
+	<div class="span6">
+		<%= image_tag("dynamicsOfGenOscNet/nmsd.png", :class => "img-polaroid full-size") %>
+	</div>
+	<div class="span6">
+		<%= image_tag("dynamicsOfGenOscNet/nmnsd.png", :class => "img-polaroid full-size") %>
+	</div>
+</div>
+<div class="row-fluid">
+	<h2 class="pull-left">
+		About this project
+	</h2>
+</div>
+<div class="row-fluid">
+	<p>
+		Many important biological processes that occur within the human body are carried out through the interactions of genes and their proteins in a sequence of steps called a genetic regulatory network. These networks perform a wide variety of functions that range from metabolism regulation to embryogenesis. Certain genetic regulatory networks have the distinction that they can oscillate, allowing for such vital periodic processes as the circadian clock and the cell cycle to exist. Such genetic oscillatory networks often require a certain degree of robustness in their oscillations to maintain activity at a constant or near-constant pace. By understanding how they work, we can gain insight into many diseases associated with flaws in their structure. Such diseases range from sleep disorders to cancer, and greater understanding of genetic oscillator networks could result in breakthroughs in their treatment. Unfortunately, genetic oscillatory networks are often so complex that their mechanisms are hard to determine.
+	</p>
+	<p>
+		A technique researchers often use to gain greater understanding of genetic oscillatory networks is to examine them mathematically using models called delay differential equations (DDEs). This approach is significant because it makes the networks much easier to understand intuitively. However, from a mathematical standpoint, DDEs are very complex, making it hard to use the model to make actual predictions.
+	</p>
+	<p>
+		Our study helps alleviate this problem by introducing two new techniques, derived mathematically, that make using DDEs to make actual predictions much easier. In creating these techniques, we determine the criteria necessary for genetic oscillatory networks to be robust. These findings help explain how genetic oscillators function at a fundamental level. Our work has done well in the National Siemens Competition and the Google Science Fair, and we have submitted it to the journal PLOS One for publication.
+	</p>
+</div>
+<div class="row-fluid">
+	<h2 class="pull-left">
+		Accolades
+	</h2>
+</div>
+<div class="row-fluid">
+	<ul class="unstyled body-text">
+		<li>Siemens Competition 2012 National Second Place</li>
+		<li>Google Science Fair 2013 Regional Finalist</li>
+		<li>Research paper submitted to PLOS One (Chaos and Robustness in a Single Family of Genetic Oscillatory Networks)</li>
+	</ul>
+</div>
+<div class="row-fluid">
+	<h2 class="pull-left">
+		The Team
+	</h2>
+</div>
+<div class="row-fluid">
+	<ul class="inline body-text">
+		<li>Daniel Fu</li>
+		<li>Patrick Tan</li>
+		<li>Alexey Kuznetsov</li>
+		<li>Yaroslav Molkov</li>
+	</ul>
+</div>

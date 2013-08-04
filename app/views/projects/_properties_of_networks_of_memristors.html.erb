@@ -1,0 +1,40 @@
+<% @basic_information = _memristor_networks
+provide(:title, @basic_information[:title]) %>
+<div class="page-header">
+	<h1><%= @basic_information[:title] %></h1>
+</div>
+<div class="row-fluid">
+	<div class="row-fluid">
+		<h2 class="pull-left">
+			About this project
+		</h2>
+	</div>
+	<div class="row-fluid">
+		<div class="row-fluid">
+			<p class="span8">
+				The goal of this project is to add to the body of research concerned with building a silicon-based computational system with the computing power of the human brain (a robot brain, in other words). One of the major challenges in achieving the end goal of a robot brain is that conventional transistor-based storage systems do not have the associative properties of the human brain. The human brain achieves associative memory through a complex network of millions of neurons, and replicating such complexity with traditional computing power is virtually impossible and definitely impractical.
+			</p>
+			<div class="hero-unit span4">
+				<div>
+					<%= image_tag(@basic_information[:img], :class => "img-polaroid") %>
+				</div>
+			</div>
+		</div>
+		<div class="row-fluid">
+			<p>
+				Memristors provide a potential solution to this problem, since they possess unique properties that traditional circuits do not. The unique properties of memristors give them certain "neuron-like" properties that could potentially be exploited to create a robotic brain. However, memristors are themselves rather complex, and complex networks of memristors are very difficult to understand comprehensively. This project aims to explore different networks of memristors and develop a framework to better understand complex networks of memristors. The project is still very much in its early, exploratory phases.
+			</p>
+		</div>
+	</div>
+</div>
+<div class="row-fluid">
+	<h2 class="pull-left">
+		The Team
+	</h2>
+</div>
+<div class="row-fluid">
+	<ul class="inline body-text span12">
+		<li>Daniel Fu</li>
+		<li>Mentor: Yogesh Joglekar</li>
+	</ul>
+</div>

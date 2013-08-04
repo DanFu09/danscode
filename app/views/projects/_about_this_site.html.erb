@@ -1,0 +1,17 @@
+<% @basic_information = _danscode_site
+provide(:title, @basic_information[:title]) %>
+<div class="page-header">
+	<h1><%= @basic_information[:title] %></h1>
+</div>
+<div class="row-fluid">
+	<div class="row-fluid">
+		<h2 class="pull-left">
+			About this site
+		</h2>
+	</div>
+	<div class="row-fluid">
+		<p>
+			This web site was written with the Ruby on Rails framework, and I wrote it to host some of the projects I've been working on for the last few years, to get some practice using the Ruby on Rails framework, and to sharpen up my web development skills in general. Like many projects written using the Ruby on Rails framework, this site is completely open source and can be found on GitHub <%= link_to("here", "https://github.com/neodiabolus/danscode/") %>.
+		</p>
+	</div>
+</div>
