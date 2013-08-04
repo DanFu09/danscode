@@ -82,7 +82,7 @@ module ProjectsHelper
 		def _dyknow_features
 			short_description = "Two features built while I was an intern at DyKnow, a small tech company in Indianapolis that provides innovative, scalable, and reliable classroom management and interactive learning software for educators."
 			{
-				:title => "DyKnow Analytics and External Document Support",
+				:title => "DyKnow Features",
 				:short_description => short_description,
 				:img => "dyknow/analytics.png",
 				:path => "dyknow_projects"
