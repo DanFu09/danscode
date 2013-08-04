@@ -1,0 +1,45 @@
+<% @basic_information = _meth_temperature_rats
+provide(:title, @basic_information[:title]) %>
+<div class="page-header">
+	<h1><%= @basic_information[:title] %></h1>
+</div>
+<div class="row-fluid hero-unit">
+	<div>
+		<%= image_tag(@basic_information[:img], :class => "img-polaroid full-size") %>
+	</div>
+</div>
+<div class="row-fluid">
+	<h2 class="pull-left">
+		About this project
+	</h2>
+</div>
+<div class="row-fluid">
+	<p>
+		Methamphetamine has a very complex, dose-dependent effect on body temperature. For example, low doses of meth trigger immediate hyperthermia, but higher doses of meth do not have an immediate effect on temperature. Even higher doses of meth trigger immediate hyperthermia of a greater magnitude than the original low dose of hyperthermia. This makes understanding the neural circuitry underlying the temperature response to meth very hard to understand, which thus makes developing effective treatments of life-threatening, meth-induced hyperthermia especially difficult to treat. We aim to use mathematical modeling to uncover the underlying temperature control network so that life-saving treatments can be developed down the road.
+	</p>
+	<p>
+		In the most recent step of the project, we study the role of the neurotransmitter orexin in particular. Studies in which an orexin antagonist is injected into rats thirty minutes before injection of meth show that orexin plays an important role in the temperature control network. Like the dose of meth, the dose of orexin antagonist has a highly-complex, dose-dependent effect on temperature. At low doses of meth, the antagonist suppressed meth-induced hyperthermia; however, at high doses of meth, the antagonist increased the magnitude of the meth-induced hyperthermia. To resolve the seeming paradox, we hypothesize that there is a specific distribution of type-1 and type-2 orexin receptors on the neural populations in the temperature control network. Our work has been presented at a conference in Paris, and we are currently in the process of writing a paper.
+	</p>
+</div>
+<div class="row-fluid">
+	<h2 class="pull-left">
+		Accolades
+	</h2>
+</div>
+<div class="row-fluid">
+	<ul class="unstyled body-text">
+		<li>Presented at Computational Neuroscience 2013 in Paris, France (Orexinergic Neurotransmission in Temperature Responses to Amphetamines)</li>
+	</ul>
+</div>
+<div class="row-fluid">
+	<h2 class="pull-left">
+		The Team
+	</h2>
+</div>
+<div class="row-fluid">
+	<ul class="inline body-text">
+		<li>Daniel Fu</li>
+		<li>Patrick Tan</li>
+		<li>Yaroslav Molkov</li>
+	</ul>
+</div>

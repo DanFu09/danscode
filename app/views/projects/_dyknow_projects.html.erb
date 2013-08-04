@@ -1,0 +1,52 @@
+<% @basic_information = _dyknow_features
+provide(:title, "DyKnow Features") %>
+<div class="page-header">
+	<h1><%= "Internship at DyKnow" %></h1>
+</div>
+<div class="row-fluid">
+	<p>
+		I spent about six weeks in the summer of 2013 as an intern at DyKnow, a software company in Indianapolis that classroom management and interactive learning software for educators.  It was a really cool experience because some of my teachers had used DyKnow to teach classes before, and it was really exciting to work on a product that I had personally used in the classroom.  At the time, DyKnow was about to launch its web client for the first time, so it was also really interesting to see everything that went into launching a major product for the first time.  In addition to all that, I learned a bunch about JavaScript and web development in general, and this site wouldn't be here without the skills I learned while working at DyKnow.
+	</p>
+</div>
+<div class="row-fluid page-header">
+	<h1>Analytics</h1>
+</div>
+<div class="row-fluid hero-unit">
+	<div class="span6">
+		<%= image_tag(@basic_information[:img], :class => "img-polaroid full-size") %>
+	</div>
+	<div class="span6">
+		<%= image_tag("dyknow/analyticsPalIndividual.png", :class => "img-polaroid full-size") %>
+	</div>
+</div>
+<div class="row-fluid">
+	<h2 class="pull-left">
+		About this project
+	</h2>
+</div>
+<div class="row-fluid">
+	<p>
+		The analytics feature allows teachers to track student participation and understanding over time.  Teachers can see which students were paying attention at whaat times, when students lost understanding of the material, and how students responded to quiz and poll questions.  There is also architecture to eventually allow teachers to view changes in student understanding and participation over the entire school year.
+	</p>
+</div>
+<div class="row-fluid page-header">
+	<h1>Google Drive + Dropbox Support</h1>
+</div>
+<div class="row-fluid hero-unit">
+	<div class="span6">
+		<%= image_tag("dyknow/gdriveSupport.png", :class => "img-polaroid full-size") %>
+	</div>
+	<div class="span6">
+		<%= image_tag("dyknow/dropboxSupport.png", :class => "img-polaroid full-size") %>
+	</div>
+</div>
+<div class="row-fluid">
+	<h2 class="pull-left">
+		About this project
+	</h2>
+</div>
+<div class="row-fluid">
+	<p>
+		One of DyKnow's key features is allowing teachers to give presentations and transmit ink strokes from the teacher's screen to the students' screens.  Before this feature was implemented, teachers could only import pdf's from native file systems.  This is fine and dandy for teachers using conventional computers, but it's a problem for iPad users, since the iPad's file browsing only allows access to pictures.  This feature allows teachers to import presentations from Google Drive and Dropbox.  It also resulted in the creation of a simple "presentation browsing" system that has since been used to organize the documents that teachers have already imported.
+	</p>
+</div>
