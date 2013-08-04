@@ -84,7 +84,7 @@ module ProjectsHelper
 			{
 				:title => "DyKnow Analytics and External Document Support",
 				:short_description => short_description,
-				:img => "",
+				:img => "dyknow/analytics.png",
 				:path => "dyknow_projects"
 			}
 		end
