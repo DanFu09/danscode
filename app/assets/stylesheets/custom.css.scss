@@ -71,6 +71,9 @@ p, .body-text {
       max-height: 200px;
       height: auto;
     }
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
   }
 }
 
@@ -97,3 +100,5 @@ p, .body-text {
   margin-top: 45px;
   @include box_sizing;
 }
+
+.top-buffer { margin-top:20px; }

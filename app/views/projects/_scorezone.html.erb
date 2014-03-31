@@ -1,0 +1,21 @@
+<% @basic_information = _scorezone
+provide(:title, @basic_information[:title]) %>
+<div class="page-header">
+	<h1><%= @basic_information[:title] %></h1>
+</div>
+<div class="row-fluid hero-unit">
+	<div>
+		<%= image_tag(@basic_information[:img], :class => "img-polaroid full-size") %>
+	</div>
+</div>
+<div class="row-fluid">
+	<h2 class="pull-left">
+		About this project
+	</h2>
+</div>
+<div class="row-fluid">
+	<p>
+		ScoreZone is an app that allows users to see sports updates as soon as they happen. Each participating team from each participating school designates an athlete reporter who can submit scores, information, and highlights from each competition. My role in this project specifically was to lead the team that ported ScoreZone from iOS to Android. ScoreZone can be downloaded from Google Play and the Apple App Store, though Park Tudor sports teams are for the most part no longer using the app.
+	</p>
+</div>
+ 

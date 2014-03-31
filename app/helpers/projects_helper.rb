@@ -2,9 +2,7 @@ module ProjectsHelper
 
 	def current_projects
 		[
-  		_chaos_and_robustness,
   		_meth_temperature_rats,
-  		_memristor_networks,
   		_global_scholars_project,
   		_danscode_site
   	]
@@ -12,8 +10,10 @@ module ProjectsHelper
 
 	def past_projects
 		[
+		    	_chaos_and_robustness,
+		  	_dyknow_features,
 			_yasl_compiler,
-			_dyknow_features
+			_scorezone
 		]
 	end
 
@@ -30,7 +30,7 @@ module ProjectsHelper
 		end
 
 		def _meth_temperature_rats
-			short_description = "A mathematical modeling study to gain a deeper understanding of the neural response to meth, with the eventual goal of preventing malignant hyperthermia caused by low doses of meth."
+			short_description = "A mathematical modeling study to gain a deeper understanding of the neural response to meth, with the eventual goal of preventing death by overdose of meth."
 			{ 
   			:title => "Modeling Effects of Meth on Temperature",
   			:short_description => short_description,
@@ -86,6 +86,16 @@ module ProjectsHelper
 				:short_description => short_description,
 				:img => "dyknow/analytics.png",
 				:path => "dyknow_projects"
+			}
+		end
+		
+		def _scorezone
+			short_description = "An app for Android and iOS that lets students view updates from school sporting events."
+			{
+				:title => "ScoreZone",
+				:short_description => short_description,
+				:img => "scorezone/scorezoneScreenshot.png",
+				:path => "scorezone"
 			}
 		end
 end
