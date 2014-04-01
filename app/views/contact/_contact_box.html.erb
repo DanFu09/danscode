@@ -1,21 +1,23 @@
 <h3>Send me an e-mail</h3>
-<%= form_for :contact_form do |f| %>
-  <p>
-    <%= f.label :name %>
-    <%= f.text_field :name %>
-  </p>
+<div class="input-group">
+  <%= form_for :contact_form do |f| %>
+    <p>
+      <%= f.label :name %>
+      <%= f.text_field :name %>
+    </p>
+    
+    <p>
+      <%= f.label :email %>
+      <%= f.text_field :email %>
+    </p>
   
-  <p>
-    <%= f.label :email %>
-    <%= f.text_field :email %>
-  </p>
- 
-  <p>
-    <%= f.label :message %>
-    <%= f.text_area :message %>
-  </p>
- 
-  <p>
-    <%= f.submit "Send Message" %>
-  </p>
-<% end %>
+    <p>
+      <%= f.label :message %>
+      <%= f.text_area :message %>
+    </p>
+  
+    <p>
+      <%= f.submit "Send Message" %>
+    </p>
+  <% end %>
+</div>
