@@ -77,4 +77,14 @@ Danscode::Application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
+  
+  ActionMailer::Base.delivery_method = :smtp
+  ActionMailer::Base.smtp_settings = {
+    address:              'smtp.gmail.com',
+    port:                 587,
+    domain:               'danscode.com',
+    user_name:            'danscode1@gmail.com',
+    password:             's3ND@N3M@1L!',
+    authentication:       'plain',
+    enable_starttls_auto: true  }
 end
