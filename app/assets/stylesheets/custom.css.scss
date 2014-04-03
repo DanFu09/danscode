@@ -66,11 +66,10 @@ p, .body-text {
 
 .thumbnail {
   .project-thumbnail-image {
-    height: 200px;
-    img {
-      max-height: 200px;
-      height: auto;
-    }
+    max-height: 200px;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
     display: table-cell;
     vertical-align: middle;
     text-align: center;
