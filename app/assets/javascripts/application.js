@@ -15,7 +15,6 @@
 //= require turbolinks
 //= require bootstrap
 //= require twitter-bootstrap-hover-dropdown.min
-//= require linked_in
 //= require danscode
 //= require Actions/danscode.actions
 //= require Actions/danscode.actions.header
