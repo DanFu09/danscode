@@ -19,3 +19,5 @@ doc/
 .idea
 .secret
 .directory
+*.sublime-project
+*.sublime-workspace
