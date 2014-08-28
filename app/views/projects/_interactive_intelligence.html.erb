@@ -4,17 +4,26 @@ provide(:title, "Interaction Speech Tuner") %>
 	<h1>Interaction Speech Tuner</h1>
 </div>
 <div class="row-fluid hero-unit">
-	<div class="span12">
-		<%= image_tag(@basic_information[:img], :class => "img-polaroid full-size") %>
+	<div class="span6">
+		<%= image_tag("interactiveIntelligence/transcribe.png", :class => "img-polaroid full-size") %>
+	</div>
+	<div class="span6">
+		<%= image_tag("interactiveIntelligence/editGrammars.png", :class => "img-polaroid full-size") %>
 	</div>
 </div>
 <div class="row-fluid">
 	<h2 class="pull-left">
-		About this project
+		Project Overview
 	</h2>
 </div>
 <div class="row-fluid">
 	<p>
-		I spent two months in the summer of 2014 as an intern at Interactive Intelligence, a major software company in Indianapolis that does call center technology.  One of their major products is a grammar-based speech recognizer, which is the software that drives automatic voice interactions when someone calls into a major call center (but before they reach an actual person).  My project was to build a web application that people can use to tune speech grammars and increase the effectiveness of their automated speech engines.  This was a major project that exposed me to the entire web stack for the first time and gave me the opportunity to do new things like code a server in C++ and run a client-side MVC framework using AngularJS.  I also learned the ins and outs of working with a massive code base and being successful in a large company.  Overall a great experience.
+		I spent two months in the summer of 2014 as an intern at Interactive Intelligence, a major software company in Indianapolis that makes call center technology. One of the major features that any call center software suite needs is automated speech recognition - the software that drives the automatic speech prompts that greet callers. My project was to build the Interaction Speech Tuner, a web application that gives users the ability to tune the parameters of speech recognition and increase the effectiveness of their automated speech engines. Features include setting up distinct projects for different engines/companies, uploading call logs, viewing statistics about a range of call logs, transcribing calls, editing grammars/engine parameters, and testing new grammars/parameters against existing call data.
+	</p>
+	<p>
+		This project introduced me to the entire web stack on a much deeper level than anything I had done before. For the frontend, I used AngularJS, a client-side Javascript-based MVC framework that relies on a server-side RESTful API. For the backend, I wrote a RESTful API using C++ and Interactive Intelligence's proprietary libraries (probably at least 15+ distinct libraries by the time I was done).
+	</p>
+	<p>
+		Working with Interactive Intelligence's massive codebase was a challenge in itself, and one of the skills I drastically improved was my ability to quickly learn how to use a library, whether documented well or not. I also got experience working in a large company, where no single person knew how the entire code base worked, and where there was a very high chance that the only person who knew the solution to a particular problem was a complete stranger. I definitely learned a lot from the internship, both technical and professional, and it was overall a great experience.
 	</p>
 </div>

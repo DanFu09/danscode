@@ -2,7 +2,6 @@ module ProjectsHelper
   
   def current_projects
     [
-      _interactive_intelligence,
       _meth_temperature_rats,
       _danscode_site
     ]
@@ -10,6 +9,7 @@ module ProjectsHelper
   
   def past_projects
     [
+      _interactive_intelligence,
       _chaos_and_robustness,
       _dyknow_features,
       _global_scholars_project,
@@ -105,11 +105,11 @@ module ProjectsHelper
   end
 
   def _interactive_intelligence
-    short_description = "My major project for my internship at Interactive Intelligence, a large tech company in Indianapolis that does enterprise-level Call Center technology."
+    short_description = "A speech tunning application I built for my internship at Interactive Intelligence, a large tech company in Indianapolis that makes enterprise-level call center technology."
     {
       title: "Interaction Speech Tuner",
       short_description: short_description,
-      img: "interactiveIntelligence/inin_logo.jpg",
+      img: "interactiveIntelligence/summary.png",
       path: "interactive_intelligence"
     }
   end
