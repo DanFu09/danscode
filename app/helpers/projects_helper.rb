@@ -65,7 +65,7 @@ module ProjectsHelper
   end
   
   def _danscode_site
-    short_description = "This web site is written using Ruby on Rails. It is constantly evolving with new pages and updates to my projects. This site is also completley open source and can be found on GitHub."
+    short_description = "This web site is written using Ruby on Rails. It is constantly evolving with new pages and updates to my projects. This site is also completely open source and can be found on GitHub."
     {
       :title => "DansCode",
       :short_description => short_description,
@@ -105,7 +105,7 @@ module ProjectsHelper
   end
 
   def _interactive_intelligence
-    short_description = "A speech tunning application I built for my internship at Interactive Intelligence, a large tech company in Indianapolis that makes enterprise-level call center technology."
+    short_description = "A speech tuning application I built for my internship at Interactive Intelligence, a large tech company in Indianapolis that makes enterprise-level call center technology."
     {
       title: "Interaction Speech Tuner",
       short_description: short_description,
