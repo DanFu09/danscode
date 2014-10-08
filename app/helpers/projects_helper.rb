@@ -2,6 +2,7 @@ module ProjectsHelper
   
   def current_projects
     [
+      _hir,
       _meth_temperature_rats,
       _danscode_site
     ]
@@ -111,6 +112,17 @@ module ProjectsHelper
       short_description: short_description,
       img: "interactiveIntelligence/summary.png",
       path: "interactive_intelligence"
+    }
+  end
+
+  def _hir
+    short_description = "I'm on the technology board for the Harvard International Review.  We work on the Harvard International Review website.  One of my major goals this semester is to do UX research and make improvements accordingly."
+    {
+      title: "Harvard International Review",
+      short_description: short_description,
+      img: "hir/HIRLogo.png",
+      path: "hir"'
+      '
     }
   end
 end
