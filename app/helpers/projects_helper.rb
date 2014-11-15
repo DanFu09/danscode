@@ -2,7 +2,6 @@ module ProjectsHelper
   
   def current_projects
     [
-      _hir,
       _meth_temperature_rats,
       _danscode_site
     ]
